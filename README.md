@@ -2,7 +2,7 @@
 
 Sistema end-to-end de analítica geoespacial, segmentación con Machine Learning y pronóstico de series de tiempo para identificar oportunidades de inversión inmobiliaria y estimar la velocidad de venta (liquidez) en la Ciudad de México.
 
-🔗 **Demo en vivo:** _pendiente (Streamlit Community Cloud)_
+🔗 **Demo en vivo:** https://urban-liquidity-engine.streamlit.app
 👤 **Autor:** Alejandro De Antuñano
 
 > **Nota sobre los datos:** el dataset (2,500 transacciones en 6 alcaldías, ene-2024 a dic-2025) es **sintético y reproducible** (`seed=42`). Se generó con supuestos realistas de precio/m² y tiempo de venta por alcaldía, más una penalización por distancia al transporte. El pipeline está pensado para sustituirlo por datos reales (p. ej., portales inmobiliarios o catastro) sin cambiar los modelos.
